@@ -4,3 +4,4 @@ venv
 .idea
 team.csv
 team.json
+credentials.json
