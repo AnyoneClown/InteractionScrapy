@@ -8,4 +8,4 @@ class Person:
     img: str
     linkedin: str
     twitter: str
-    instagram: str
+    oestrategy: str
