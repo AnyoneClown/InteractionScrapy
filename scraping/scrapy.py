@@ -9,6 +9,7 @@ import requests
 from bs4 import BeautifulSoup, Tag
 
 from scraping.models import Person
+from scraping.spreadsheet import upload_to_spreadsheet
 
 HOME_URL = "https://interaction24.ixda.org/"
 
@@ -75,8 +76,11 @@ def write_data_to_json(people: [Person], filename: str = "team.json"):
 
 if __name__ == "__main__":
     start_time = time.perf_counter()
+
     people = parse_team()
     write_data_to_csv(people)
     write_data_to_json(people)
+    upload_to_spreadsheet(people, "credentials.json", "Interaction24 Team")
+
     end_time = time.perf_counter()
     print("Elapsed:", end_time - start_time)
