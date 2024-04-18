@@ -2,3 +2,5 @@ poetry.lock
 venv
 **__pycache__**
 .idea
+team.csv
+team.json
