@@ -17,7 +17,7 @@ This project is a web scraping tool designed to extract data from the Interactio
 5. Finally, the data is uploaded to a Google Spreadsheet using the `gspread` library and Google Sheets API.
 
 ## Recommendation for Use
-It is recommended to use poetry to manage the dependencies of this project, but it is not necessary. The `requirements.txt` file contains all the dependencies needed to run the project.
+It is recommended to use `poetry` to manage the dependencies of this project, but it is not necessary. The `requirements.txt` file contains all the dependencies needed to run the project.
 
 ## Setup
 1. **Clone the Repository:**
@@ -43,3 +43,7 @@ This will start the scraping process and the data will be written to team.csv, t
 
 ## Note
 Please ensure that the Google Spreadsheet is shared with the `client_email` found in your service account JSON key file, and that the service account has the necessary permissions to access and modify the spreadsheet.
+
+## Images
+![GoogleSheet File](images/googlesheet.png)
+![CSV File](images/csv.png)
