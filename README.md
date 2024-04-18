@@ -45,5 +45,5 @@ This will start the scraping process and the data will be written to team.csv, t
 Please ensure that the Google Spreadsheet is shared with the `client_email` found in your service account JSON key file, and that the service account has the necessary permissions to access and modify the spreadsheet.
 
 ## Images
-![GoogleSheet File](images/googlesheet.png)
-![CSV File](images/csv.png)
+![GoogleSheet File](Images/googlesheet.png)
+![CSV File](Images/csv.png)
